@@ -1,7 +1,7 @@
-Nginx image for pimcore
-=======================
+Nginx image for laravel 5
+=========================
 
-Nginx container for pimcore applications. Pimcore is not installed in the Image.
+Nginx container for Laravel 5 applications. Laravel is not installed in the Image.
 
 Versions
 --------

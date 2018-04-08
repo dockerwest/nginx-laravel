@@ -15,6 +15,19 @@ container via DNS. When you set `DNS_RESOLVER` to 'auto' the value set in
 (This will default to docker interal dns resolving). If you want to use an
 external resolver you can also set a specific ipv4 address.
 
+Overriding or adding extra configuration for nginx
+--------------------------------------------------
+
+When there is a need to add additional configuration to your nginx config you
+can add a config file in the `/etc/nginx/include/overrides.conf` location. That
+file is included in the default server configuration. You can for example add
+additional configuration for a maintenance page. Or you could set
+`client_max_body_size`, ...
+
+~~~ sh
+$ docker run -v /path/to/overrides.conf:/etc/nginx/include/overrides.conf dockerwest/nginx-laravel:<version>
+~~~
+
 Versions
 --------
 

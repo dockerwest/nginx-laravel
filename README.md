@@ -3,6 +3,12 @@ Nginx image for laravel 5
 
 Nginx container for Laravel 5 applications. Laravel is not installed in the Image.
 
+Document Root
+-------------
+
+The required document root for laravel is set to `<your laravel
+project>/public`. This is de recommended setup for laravel production.
+
 Environment variables
 ---------------------
 

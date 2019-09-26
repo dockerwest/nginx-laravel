@@ -1,7 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright © `2017` `BlackIkeEagle`
+Copyright © `2017-2019` `DockerWest Contributors`
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation

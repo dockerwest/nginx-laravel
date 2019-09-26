@@ -1,4 +1,4 @@
 #!/bin/sh
-#docker pull nginx:stable-alpine
+#docker pull dockerwst/nginx:stable
 
 docker build --no-cache -t dockerwest/nginx-laravel:stable .
